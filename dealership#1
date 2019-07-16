@@ -1,0 +1,20 @@
+def date
+  current_time = Time.new
+  current_time.strftime("%D")
+end
+
+def ilisting_price(make, model, price="Ask for price")
+   "#{make.capitalize} #{model.capitalize} Price: #{price}"
+end
+
+puts "Welcome to European Imports!!! How much can you spend today?"
+
+budget = gets.chomp
+
+puts "Your budget is $#{budget.to_i}."
+
+puts "Here is our listing of inventory as of #{date}:"
+puts ilisting_price("alfa romeo", "stelvio", "$60,000")
+puts ilisting_price("maserati", "ghibli", "$75,000")
+puts ilisting_price("lamborghini", "aventador")
+puts ilisting_price("ferrari", "812 superfast")
