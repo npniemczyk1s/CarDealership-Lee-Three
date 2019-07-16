@@ -1,2 +1,2 @@
 # CarDealership-Lee-Three
-Luca, Nicholas, Kayla, Jacob CarDealership
+Lucas, Nicholas, Kayla, Jacob CarDealership
